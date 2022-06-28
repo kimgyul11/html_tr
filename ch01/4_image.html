@@ -1,0 +1,33 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="uTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>image</title>
+</head>
+<!--주소연결방법 2가지 절대주소(svc root,물리적 위치),상대주소  -->
+<body>
+<!--상대경로  -->
+
+<!--1. 동일한 위치에있을때 (ch01)
+	::파일명만 scr에 입력해주면나옴   -->
+	
+	<img alt="이미지설명넣는영역" src="canada.jpg" width="100px">
+	<img alt="이미지설명넣는영역" src="./canada.jpg" height="100px">
+	
+<!--2. 동일한 위치(ch01)에 있는 다른 폴더(image) 사진:
+	:폴더명/파일명 scr에 입력해주면나옴  -->	
+	<img alt="이미지설명넣는영역" src="image/tree.jpg">
+	<img alt="이미지설명넣는영역" src="./image/tree.jpg">
+	
+<!--3. 내 위치에서상위파일있을때 한단계올라갈때(..)사용-->
+	<img alt="이미지설명넣는영역" src="../image/abc.jpg">	
+
+<!--*웹사이트에서 f12눌러서 사진사이즈 확인가능  -->
+
+<!--컴퓨터 내 사진말고 외부링크 이용 이미지가져오기
+	:웹사이트 이미지 우클릭해서 주소복사 -->
+	<img alt="이미지설명넣는영역" src="https://t1.daumcdn.net/cfile/tistory/9919334E5B28A1E331">
+	<img alt="이미지설명넣는영역" src="https://image.msscdn.net/images/event_banner/2022061016104600000017593.jpg">
+</body>
+</html>
