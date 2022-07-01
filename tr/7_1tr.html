@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="uTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	가격<input type="text" name="price" id="price"><br>
+	수량<!-- onchange는 변화가 생겼을때 작동하는 이벤트 -->
+		<select id="quantity" name="quantity" onchange="sum()">
+			<option value="">수량을 선택하세요</option>
+			<option value="10">10</option>
+			<option value="20">20</option>
+			<option value="30">30</option>
+			<option value="40">40</option>
+		</select>
+	<br>
+	총가격<input type="text" name="totalPrice" id="totalPrice">
+	<br>
+	
+	<script type="text/javascript">
+	/* 총가격 함수 */
+		function sum(){
+			/* 메서드는 주어진 문자열과 일치하는 id 속성을 가진 요소를 찾고, 이를 나타내는 Element 객체를 반환*/
+			var price = document.getElementById("price").value;
+			var quantity = document.getElementById("quantity").value;
+			document.getElementById("totalPrice").value = parseInt(price)*parseInt(quantity);
+		}
+		
+	
+	</script>
+	
+
+
+</body>
+</html>
