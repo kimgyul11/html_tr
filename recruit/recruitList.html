@@ -3,9 +3,100 @@
 <head>
 	<meta charset="uTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>list</title>
+	<title>kimgiyul</title>
+	<style type="text/css">
+	table{
+		border:solid;
+		border-width:1px;
+		border-collapse:collapse;
+		width:80%;
+		table-layout:fixed;
+		margin-left: auto; margin-right: auto;
+	}
+	tr,td{
+		border:solid;
+		border-width:1px;
+		border-collapse:collapse;
+		text-align:center;
+		height:50px;
+		vertical-align:middle;
+		padding:"center";
+	}
+	h1{
+		text-align:center;
+	}
+	b{
+		margin-left:left;
+	}
+	</style>
 </head>
 <body>
-
+	<form>
+		<h1>입사 지원자 목록</h1>
+		<hr>
+		<table>
+			<tr>
+				<td width="50">
+					<input type="checkbox">
+				</td>
+				<td width="50">번호</td>
+				<td width="50">성별</td>
+				<td width="100">이름</td>
+				<td>영문이름</td>
+				<td>핸드폰 번호</td>
+				<td>이메일</td>
+				<td>주소</td>
+				<td>입사지원서</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>1</td>
+				<td>남</td>
+				<td>김기율</td>
+				<td>KIMGIYUL</td>
+				<td>010-5557-6295</td>
+				<td>coloo88@naver.com</td>
+				<td>경기도 수원시</td>
+				<td>
+					<a href="recruitView.html"><img src="https://cdn.icon-icons.com/icons2/1471/PNG/512/12-file_101194.png"width="15"></a>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>2</td>
+				<td>남</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>	
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>3</td>
+				<td>여</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>	
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>4</td>
+				<td>남</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<input type="button"name = "ok" onclick="alert(저장되었습니다)" value = "완료">
+		<input type="button"name = "ok" onclick="alert(저장되었습니다)" value = "추가">
+		<input type="button"name = "ok" onclick="alert(저장되었습니다)" value = "수정">
+		
+	
+	</form>	
 </body>
 </html>
