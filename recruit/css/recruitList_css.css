@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Brush+Script&family=Song+Myung&display=swap');
+* {
+    font-family: 'Gowun Dodum', sans-serif;;
+}
+body{
+	background-color:#F6FEFF;
+}
+button:hover{
+	background-color:black;
+	color:white;
+}
+.button_disign{
+	text-align:center;
+	margin-top:10px;
+}
+h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align:center;
+	display:inline;
+}
+hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#head{
+	text-align: center;
+}
+p{
+	margin-top:10;
+	font-size:15px;
+	color:#CCCCFF;
+}
