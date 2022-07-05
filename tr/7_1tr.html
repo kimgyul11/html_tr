@@ -1,39 +1,32 @@
-<!DOCTYPE>
+ <!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="uTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<style>
-	</style>
-	
+	<title>kimgiyul</title>
+	<link href="7_1tr_css.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/86d85c3d85.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-	가격<input type="text" name="price" id="price"><br>
-	수량<!-- onchange는 변화가 생겼을때 작동하는 이벤트 -->
-		<select id="quantity" name="quantity" onchange="sum()">
-			<option value="">수량을 선택하세요</option>
-			<option value="10">10</option>
-			<option value="20">20</option>
-			<option value="30">30</option>
-			<option value="40">40</option>
-		</select>
-	<br>
-	총가격<input type="text" name="totalPrice" id="totalPrice">
-	<br>
-	
-	<script type="text/javascript">
-	/* 총가격 함수 */
-		function sum(){
-			/* 메서드는 주어진 문자열과 일치하는 id 속성을 가진 요소를 찾고, 이를 나타내는 Element 객체를 반환*/
-			var price = document.getElementById("price").value;
-			var quantity = document.getElementById("quantity").value;
-			document.getElementById("totalPrice").value = parseInt(price)*parseInt(quantity);
-		}
-		
-	
-	</script>
-	
-
-
+	<nav class="navbar">
+		<div class="navbar__logo">
+			<i class="fa-brands fa-apple"></i>
+			<a href="">홈페이지 입니다.</a>
+		</div>
+		<div class="navbar__list">
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">weddings</a></li>
+				<li><a href="">FAQ</a></li>
+				<li><a href="">Bookings</a></li>
+			</ul>
+		</div>
+		<ul class="navbar__link">
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-twitch"></i>
+		</ul>
+	</nav>
 </body>
 </html>
