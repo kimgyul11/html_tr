@@ -6,33 +6,6 @@
 	<title>kimgiyul</title>
 	<link href="css/recruitList_css.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
-	table{
-		border:solid;
-		border-width:1px;
-		border-collapse:collapse;
-		width:80%;
-		table-layout:fixed;
-		margin-left: auto; margin-right: auto;
-	}
-	tr,td{
-		border:solid;
-		border-width:1px;
-		border-collapse:collapse;
-		text-align:center;
-		height:50px;
-		vertical-align:middle;
-		padding:"center";
-	}
-	th{
-		border:solid;
-		border-width:1px;
-		border-collapse:collapse;
-		text-align:center;
-		height:50px;
-		vertical-align:middle;
-		padding:"center";
-		background-color:#CCFFE5;
-	}
 	</style>
 </head>
 <body>
@@ -98,7 +71,6 @@
 					<td>
 						<a href="recruitView.html"><img src="https://cdn.icon-icons.com/icons2/1471/PNG/512/12-file_101194.png"width="25"></a>
 					</td>
-			
 				</tr>	
 				<tr>
 					<td><input type="checkbox"></td>
@@ -114,9 +86,16 @@
 					</td>
 				</tr>
 			</table>
-				<div class="button_disign">
-					<button type="button"  onClick="location.href='recruitReg.html'">입사지원서 등록</button>
-				</div>
+			<div class="button_disign">
+				<button type="button"  onClick="location.href=('recruitReg.html')">입사지원서 등록</button>
+			</div>
+			<br>
+				<select name="ch">
+					<option value="name">이름</option>
+					<option value="address">주소</option>
+				</select>
+				<input type="text" name="ch2">
+				<input type="submit" value="검색하기">
 		</div>	
 	</form>	
 </body>

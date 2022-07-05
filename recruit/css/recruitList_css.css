@@ -11,7 +11,8 @@ button:hover{
 }
 .button_disign{
 	text-align:center;
-	margin-top:10px;
+	margin-top:20px;
+	margin-bottom:0px;
 }
 h1{
 	margin-top: 10px;
@@ -30,4 +31,34 @@ p{
 	margin-top:10;
 	font-size:15px;
 }
-
+table{
+	border:solid;
+	border-width:1px;
+	border-collapse:collapse;
+	width:80%;
+	table-layout:fixed;
+	margin-left: auto; margin-right: auto;
+}
+tr,td{
+	border:solid;
+	border-width:1px;
+	border-collapse:collapse;
+	text-align:center;
+	height:50px;
+	vertical-align:middle;
+	padding:"center";
+}
+th{
+	border:solid;
+	border-width:1px;
+	border-collapse:collapse;
+	text-align:center;
+	height:70px;
+	vertical-align:middle;
+	padding:"center";
+	background-color:#CCFFE5;
+}
+.listsearch{
+	display:inline;
+	margin-top:0px;
+}
