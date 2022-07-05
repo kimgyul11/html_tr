@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Brush+Script&family=Song+Myung&display=swap');
 * {
-    font-family: 'Gowun Dodum', sans-serif;;
+    font-family: 'Gowun Dodum', sans-serif;
 }
 body{
 	background-color:#F6FEFF;
@@ -29,5 +29,5 @@ hr{
 p{
 	margin-top:10;
 	font-size:15px;
-	color:#CCCCFF;
 }
+
