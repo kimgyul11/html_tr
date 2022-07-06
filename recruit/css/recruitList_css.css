@@ -10,7 +10,6 @@ button:hover{
 	color:white;
 }
 .button_disign{
-	text-align:center;
 	margin-top:20px;
 	margin-bottom:0px;
 }
@@ -58,7 +57,6 @@ th{
 	padding:"center";
 	background-color:#CCFFE5;
 }
-.listsearch{
-	display:inline;
-	margin-top:0px;
+.list_head{
+	text-align: center;
 }

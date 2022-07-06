@@ -5,28 +5,30 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>kimgiyul</title>
 	<link href="7_1tr_css.css" rel="stylesheet" type="text/css">
-	<script src="https://kit.fontawesome.com/86d85c3d85.js" crossorigin="anonymous"></script>
+	<style>
+		.upload{
+			width:200px;
+			height:200px;
+			background-color:red;
+		}
+		.real-upload{
+			display:none;
+		}
+	</style>
+	
 </head>
-
 <body>
-	<nav class="navbar">
-		<div class="navbar__logo">
-			<i class="fa-brands fa-apple"></i>
-			<a href="">홈페이지 입니다.</a>
-		</div>
-		<div class="navbar__list">
-			<ul>
-				<li><a href="">HOME</a></li>
-				<li><a href="">Gallery</a></li>
-				<li><a href="">weddings</a></li>
-				<li><a href="">FAQ</a></li>
-				<li><a href="">Bookings</a></li>
-			</ul>
-		</div>
-		<ul class="navbar__link">
-			<i class="fa-brands fa-twitter"></i>
-			<i class="fa-brands fa-twitch"></i>
-		</ul>
-	</nav>
+<body>
+<!-- 인풋 css적용 어려우니 display:none;으로 해서 div로 묶어서 적용 -->
+  <input type="file" class="real-upload" accept="image/*" required multiple style="display: none;">
+  <div class="upload"></div>
+  <script>
+    const realUpload = document.querySelector('.real-upload');
+    const upload = document.querySelector('.upload');
+
+    upload.addEventListener('click', () => realUpload.click());
+    realUpload.addEventListener('change', getImageFiles);
+  </script>
+</body>
 </body>
 </html>
