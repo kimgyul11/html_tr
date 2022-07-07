@@ -3,88 +3,104 @@
 <head>
 	<meta charset="uTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>tr</title>
-</head>
-	<style type="text/css">
-		#head{
-			background:#aabb97;
-			height:50px;
-		}
-		
-		#GNB{
-			background:#dcedc8;
-			height:50px;
-		}
-		#menu{
-			background:#f8ffd7;
-			width:365px;
-			height:250px;
-			float:left;
-		}
-		table{
-			float:none;
-			background:#c8e6c9;
-			height:250px;
+	<title>kimgiyul</title>
+	<style>
+		.layout{
 			width:100%;
+			margin-left:auto;
+			margin-right:auto;
 		}
-		#last{
-			background:#f1f8e9;
-			height:70px;
-			clear:both;
-			text-align: center;
-			margin:0px;
+		.top-head{
+			background:#cfd8dc;
+			height:50px;
 		}
-		#right{
-			float:right;
-			width:200px;
-			height:250px;
-			background:red;
+		.head{
+			
+			height:50px;
+			background:#b0bec5;
+		}
+		.main .left-menu{
+			float:left;
+			width:30%;
+			height:450px;
+			background:#90a4ae;
+		}
+		.main .mid-menu{
+			float:left;
+			width:50%;
+			height:450px;
+			background:#78909c;
+			
+		}
+		.main .right-menu{
+			float:left;
+			height:450px;
+			background:#607d8b;
+			width:20%;
+		}
+		.under{
+			clear: both;
+			width:100%;
+			height:50px;
+			background:#546e7a;
+		}
+		.mid-menu table,tr,td{
+			border:1px solid;
+			text-align:center;
+			margin-left:auto;
+			margin-right:auto;
 		}
 	</style>
+</head>
 <body>
-	<div id="head">헤더</div>
-	<div id="GNB">GNB</div>
-	
-	<div id="menu">
-		<ul>
-			<li>회원관리
-			<li>사이트 관리
-			<li>시스템 관리
-			<li>커뮤니케이션 관리
-			<li>템플릿 관리
-			<li>로그 관리
-			<li>통계
-		</ul>
+	<div class="layout">
+		<div class="top-head">진짜헤드입니다.</div>
+		<div class="head">헤드입니다</div>
+			<div class="main">
+				<div class="left-menu">
+					<ul>
+						<li>회원관리
+						<li>사이트 관리
+						<li>시스템 관리
+						<li>커뮤니케이션 관리
+						<li>템플릿 관리
+						<li>로그 관리
+						<li>통계
+					</ul>
+				</div>
+				<div class="mid-menu">
+					<table>
+						<tr>
+							<td>회원관리</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>no</td>
+							<td>관리자여부</td>
+							<td>이름</td>
+							<td>아이디</td>
+							<td>이메일</td>
+							<td>핸드폰</td>
+							<td>마지막 로그인</td>
+							<td>회원가입일</td>
+							<td>최근 수정일</td>
+							<td>탈퇴여부</td>
+						</tr>
+					</table>
+				</div>
+				<div class="right-menu">
+					<img src="https://cdn.pixabay.com/photo/2022/07/03/23/33/fish-7300083_1280.jpg" height="450px;" width="380px">
+				</div>
+			</div>
+		<div class="under">아래쪽입니다.</div>	
 	</div>
-	
-	<div id="right">압</div>
-	
-		<table>
-			<tr>
-				<td>회원관리</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>no</td>
-				<td>관리자여부</td>
-				<td>이름</td>
-				<td>아이디</td>
-				<td>이메일</td>
-				<td>핸드폰</td>
-				<td>마지막 로그인</td>
-				<td>회원가입일</td>
-				<td>최근 수정일</td>
-				<td>탈퇴여부</td>
-			</tr>
-		</table>
-	<div id="last">copy right. 07.06.KIMGIYUL</div>
 </body>
 </html>

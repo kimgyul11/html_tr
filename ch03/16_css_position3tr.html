@@ -6,78 +6,48 @@
 	<title>tr</title>
 </head>
 	<style type="text/css">
-		#head{
-			background:#aabb97;
-			height:50px;
+		.layout{
+			width:1000px;
+			height:700px;
 		}
-		
-		#GNB{
-			background:#dcedc8;
+		.top{
+			background:blue;
 			height:50px;
+			border:2px solid;
 		}
-		#menu{
-			background:#f8ffd7;
-			width:300px;
-			height:150px;
-			margin:0px;
+		.top2{
+			background:green;
+			height:50px;
+			border:2px solid;
+		}
+		.main .left{
 			float:left;
+			height:200px;
+			width:200px;
+			background:pink;
 		}
-		#table{
-			display:block;
-			background:#c8e6c9;
-			height:100px;
+		.main .mid{
+			float:left;
+			width:800px;
+			height:200px;
+			background:red;
 		}
-		#last{
-			background:#f1f8e9;
-			height:70px;
+		.under{
 			clear:both;
-			text-align: center;
+			height:50px;
+			background:yellow;
+			
 		}
 	</style>
 <body>
-	<div id="head">헤더</div>
-	<div id="GNB">GNB</div>
-	<div >
-		<ul id="menu" >
-			<li>회원관리
-			<li>사이트 관리
-			<li>시스템 관리
-			<li>커뮤니케이션 관리
-			<li>템플릿 관리
-			<li>로그 관리
-			<li>통계
-		</ul>
-	</div>
-	<div id="table">
-		<table>
-			<tr>
-				<td>회원관리</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>no</td>
-				<td>관리자여부</td>
-				<td>이름</td>
-				<td>아이디</td>
-				<td>이메일</td>
-				<td>핸드폰</td>
-				<td>마지막 로그인</td>
-				<td>회원가입일</td>
-				<td>최근 수정일</td>
-				<td>탈퇴여부</td>
-			</tr>
-		</table>
-	</div>
-	<div id="last">
-		<h1 >copy right. 07.06.KIMGIYUL</h1>
+	<div class="layout">
+		<div class="top">최상단</div>
+		<div class="top2">상단</div>
+		<div class="main">
+			<div class="left">왼쪽</div>
+			<div class="mid">중간</div>
+		</div>
+		<div class="under">하단</div>
 	</div>
 </body>
 </html>
